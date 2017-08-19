@@ -1,0 +1,25 @@
+#category-title .panel-group .panel {
+  margin: 0;
+}
+#category-title .panel-group .panel .panel-heading .panel-title a {
+  display: block;
+  color: #000;
+  font-weight: 500;
+  font-size: 16px;
+  background: url(http://www.zuyushop.com/wap/images/arrow1.gif) right center no-repeat;
+}
+#category-title .panel-group .panel .panel-collapse .panel-body {
+  padding: 0;
+}
+#category-title .panel-group .panel .panel-collapse .panel-body ul li {
+  height: 40px;
+  line-height: 40px;
+  float: left;
+  width: 33.33%;
+  text-align: center;
+  border-right: 1px solid #ccc;
+  border-bottom: 1px solid #ccc;
+}
+#category-title .panel-group .panel .panel-collapse .panel-body ul li a {
+  display: block;
+}

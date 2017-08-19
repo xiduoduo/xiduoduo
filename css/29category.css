@@ -1,0 +1,26 @@
+#category ul li .category_title {
+  height: 37px;
+  background-color: #ddd;
+  border: 1px solid #f1f1f1;
+  padding: 0 10px;
+}
+#category ul li .category_title h4 {
+  font-size: 16px;
+}
+#category ul li .category_title h4 a {
+  color: #000000;
+  display: block;
+  background: url(http://www.zuyushop.com/wap/images/arrow1.gif) right center no-repeat;
+}
+#category ul li .category_list div {
+  float: left;
+  height: 40px;
+  border: 1px solid #cccccc;
+  text-align: center;
+  padding: 0;
+}
+#category ul li .category_list div a {
+  color: #000000;
+  display: block;
+  line-height: 40px;
+}

@@ -1,0 +1,187 @@
+// header  css start 
+#header {
+    background-color: #ff841d;
+    height: 50px;
+    line-height: 50px;
+    padding: 0 10px;
+    .logo {
+        float: left;
+        a {
+            img {
+                height: 25px;
+            }
+        }
+    }
+    .app-download {
+        float: right;
+        img {
+            height: 34px;
+        }
+    }
+}
+
+// header  css end
+// search  css start 
+#search {
+    form {
+        display: flex;
+        padding: 10px;
+        input[type="search"] {
+            flex: 1;
+            border: none;
+            background: #f1f1f1;
+            border-radius: 15px;
+            padding-left: 18px;
+            margin-right: 10px;
+        }
+        input[type="button"] {
+            width: 63px;
+            height: 30px;
+            color: #fff;
+            border: none;
+            line-height: 30px;
+            border-radius: 15px;
+            background-color: #ff841d;
+        }
+    }
+}
+
+// search  css end
+// menu  css start 
+#menu {
+    border-top: 10px solid #f1f1f1;
+    .item {
+        text-align: center;
+        a {
+            img {
+                width: 50px;
+                height: 50px;
+                margin-top: 10px;
+            }
+            p {
+                margin-top: 6px;
+                font-size:12px;
+            }
+        }
+        &:nth-last-child(-n+4) {
+            display: none;
+        }
+    }
+}
+
+// menu  css end
+// discount  css start 
+#discount {
+   
+    .discount-product {
+        .media {
+            padding:10px;
+                border-bottom: 1px solid #e7e7e7;
+            .media-left {
+                img {
+                    width: 100px;
+                    height: 100px;
+                }
+            }
+            .media-body {
+                .media-heading {
+                    min-height: 54px;
+                    line-height: 22px;
+                    font-size: 16px;
+                    overflow: hidden;
+                    text-overflow: ellipsis;
+                    display: -webkit-box;
+                    -webkit-box-orient: vertical;
+                    -webkit-line-clamp: 3;
+                    span {
+                        color: #ff841d
+                    }
+                }
+                .other {
+                    color: #a1a1a1;
+                    font-size: 12px;
+             
+                    .other-talk{
+                        float: right;
+                    }
+                }
+            }
+        }
+    }
+    .discount-more {
+        padding: 10px 10px 0 10px;
+        a{
+          display: block;
+          line-height: 30px;
+          text-align: center;
+          border-radius:5px;
+          width: 100%;  
+          border: 1px solid #dddddd;
+          background: #F4F4F4;
+        }
+    }
+}
+// css  common  
+ .discount-title {
+        height: 35px;
+        line-height: 35px;
+        padding: 0 10px;
+        background-color: #ff841d;
+        span {
+            font-size: 16px;
+            color: #fff;
+        }
+        img {
+            width: 20px;
+            height: 20px;
+            margin-top: 7px;
+            float: right;
+        }
+    }
+// discount  css end
+// footer  css start 
+#footer{
+    margin-top: 10px;
+    .loginbox{
+        margin-top: 20px;
+        text-align: center;
+        background: #efefef;
+    border-top: 1px solid #c4c4c4;
+    border-bottom: 1px solid #c4c4c4;
+        >div{
+            width: 30%;
+            height: 34px;
+            border-right: 1px solid #c4c4c4;
+            float: left;
+            line-height: 34px;
+        }
+        .login{}
+        .resgiter{}
+        .goTop{
+            width: 40%;
+            img{
+                margin-top: -3px;
+            }
+        }
+    }
+    .login-bottom{
+        text-align: center;
+        .p-top{
+            margin-top: 10px;
+            margin-bottom:0;
+            span{
+                font-size:12px;
+                &:first-child{
+                    color:red;
+                }
+                &:nth-child(2){
+                     color: #000;
+                }
+                 &:nth-child(3){
+                      color:#ccc;
+                }
+            }
+        }
+    }
+}
+// footer  css end

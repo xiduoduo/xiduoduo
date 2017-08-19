@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"/>
+    <meta charset="UTF-8">
+    <title></title>
+    <link rel="stylesheet" href="./css/base.css"/>
+    <!--<link rel="stylesheet" href="css/headerSearchFooter.css"/>-->
+    <link rel="stylesheet" href="./css/c29index.css"/>
+    <link rel="stylesheet" href="./lib/bootstrap/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="./css/c29category.css"/>
+</head>
+<body>
+<!--header start-->
+<header id="header">
+    <div class="header_logo"><a href="./c29index.html"><img src="./images/header_logo.png" alt=""/></a></div>
+    <div class="header_app"><a href="./c29index.html"><img src="./images/header_app.png" alt=""/></a></div>
+</header>
+<!--header end-->
+
+<!--search start-->
+<section id="search">
+    <form action="搜索提交地址">
+        <input class="searchbox" type="text" placeholder="   慢慢搜"/>
+        <input class="searchbtn" type="button" value="搜索"/>
+    </form>
+</section>
+<!--search end-->
+
+<section id="categoryMenu">
+    <ul id="categoryMenuUU">
+        <li class="categoryTitle categoryTitle0" titleId='0'><span>大家电</span><i></i></li>
+        <div class="categoryList categoryList0 row">
+            <div class="categoryContent col-xs-4"> <a href="#跳转">电视</a></div>
+            <div class="categoryContent col-xs-4"> <a href="#跳转">电视</a></div>
+            <div class="categoryContent col-xs-4"> <a href="#跳转">电视</a></div>
+            <div class="categoryContent col-xs-4"> <a href="#跳转">电视</a></div>
+            <div class="categoryContent col-xs-4"> <a href="#跳转">电视</a></div>
+            <div class="categoryContent col-xs-4"> <a href="#跳转">电视</a></div>
+        </div>
+
+        <li class="categoryTitle categoryTitle1"><span>大家电</span><i></i></li>
+        <div class="categoryList categoryList1 row"></div>
+
+        <li class="categoryTitle categoryTitle2"><span>大家电</span><i></i></li>
+        <div class="categoryList categoryList2 row"></div>
+
+        <li class="categoryTitle categoryTitle3"><span>大家电</span><i></i></li>
+        <div class="categoryList categoryList3 row"></div>
+
+        <li class="categoryTitle categoryTitle4"><span>大家电</span><i></i></li>
+        <div class="categoryList categoryList4 row"></div>
+
+    </ul>
+</section>
+
+
+<!--footer start-->
+<footer id="footer">
+    <div>
+        <div class="width30"><a href="跳转">登陆</a></div>
+        <div class="width30"><a href="跳转">注册</a></div>
+        <div class="width40"><a href="跳转"><img src="http://www.zuyushop.com/wap/images/top.jpg" alt=""/>返回顶部</a></div>
+    </div>
+    <p>
+        <a href="跳转">
+            <span> 手机APP下载 </span><span>慢慢买手机版</span><span>-掌上比价平台</span>
+        </a>
+    </p>
+    <a href="#">m.manmanbuy.com</a>
+
+</footer>
+<!--footer end-->
+
+<!--categoryTitleTpl start-->
+<script type="text/html" id="categoryTitleTpl">
+{{each data as value index}}
+    <li class="categoryTitle categoryTitle{{value.titleId}}" titleId='{{value.titleId}}'><span>{{value.title}}</span><i></i></li>
+    <div class="categoryList categoryList{{value.titleId}} row"></div>
+{{/each}}
+
+</script>
+<!--categoryTitleTpl end-->
+
+<!--categoryListTpl start-->
+<script type="text/html" id="categoryListTpl">
+    {{each data as value index}}
+    <div class="categoryContent col-xs-4" categoryId="{{value.categoryId}}"> <a href="c29productlist.html?category={{value.category}}&categoryid={{value.categoryId}}">{{value.category}}</a></div>
+    {{/each}}
+
+</script>
+<!--categoryListTpl end-->
+
+
+
+<script src="./js/29url.js"></script>
+<script src="./lib/jquery/jquery.js"></script>
+<script src="./js/template.js"></script>
+<script src="./js/c29category.js"></script>
+</body>
+</html>

@@ -1,0 +1,88 @@
+#header {
+  background-color: #ff841d;
+  height: 50px;
+  line-height: 50px;
+  padding: 0 10px;
+}
+#header .logo {
+  float: left;
+}
+#header .logo a img {
+  height: 25px;
+}
+#header .app-download {
+  float: right;
+}
+#header .app-download img {
+  height: 34px;
+}
+#search {
+  height: 50px;
+  padding: 10px;
+  position: relative;
+}
+#search .searchForm {
+  padding-right: 70px;
+}
+#search .searchForm .mms {
+  height: 30px;
+  line-height: 30px;
+  width: 100%;
+  background-color: #f1f1f1;
+  border: 0;
+  color: #f1f1f1;
+  pdding-left: 20px;
+  font-size: 16px;
+  -webkit-border-radius: 15px;
+  -moz-border-radius: 15px;
+  border-radius: 15px;
+  font-size: 14px;
+}
+#search .searchForm .mmsbtn {
+  width: 63px;
+  height: 30px;
+  border: 0;
+  -webkit-border-radius: 15px;
+  -moz-border-radius: 15px;
+  border-radius: 15px;
+  color: #ffffff;
+  background-color: #ff841d;
+  position: absolute;
+  right: 10px;
+  top: 10px;
+}
+#footer {
+  height: 30px;
+  padding-top: 20px;
+}
+#footer #footer_menu {
+  width: 100%;
+  text-align: center;
+}
+#footer #footer_menu div {
+  width: 30%;
+  height: 100%;
+  line-height: 30px;
+  border-top: 1px solid #cccccc;
+  border-right: 1px solid #cccccc;
+  border-bottom: 1px solid #cccccc;
+  float: left;
+}
+#footer #footer_menu div:last-child {
+  width: 40%;
+}
+#footer div {
+  text-align: center;
+}
+#footer div a {
+  height: 30px;
+  width: 100%;
+  font-size: 12px;
+  line-height: 30px;
+}
+#footer div a span {
+  color: red;
+}
+#footer div a i {
+  color: #cccccc;
+}

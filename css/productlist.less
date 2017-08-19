@@ -1,0 +1,93 @@
+// productlist  start
+#productlist{
+    .productlist-title{
+        .breadcrumb{
+            li{
+                &:before{
+                    content:""
+                }
+                &:after{
+                    content:">";
+                    display: inline-block;
+                    margin-left: 2px;
+                    margin-top: 2px;
+                }
+            }
+        }
+    }
+    .productlist-content{
+        .media{
+            padding: 8px 15px;
+            border-bottom: 1px solid #e7e7e7;
+            .media-left{
+                img{
+                    width: 100px;
+                    height: 100px;
+                }
+            }
+            .media-body{
+               > h4{
+                        color: #333333;
+                        line-height: 22px;
+                        min-height: 44px;
+                        word-break: break-all;
+                }
+                .info{
+                    p{
+                        &:first-child{
+                            color:red;
+                            font-size:16px;
+                        }
+                        &:last-child{
+                            color:#a1a1a1;
+                            font-size:12px;
+                            em{
+                                margin-right: 5px;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+    .productlist-page{
+        margin-top: 10px;
+        display: flex;
+        >div{
+            flex: 1;
+             text-align: center;
+            >a{
+            display: inline-block;
+                font-size: 14px;
+                line-height: 25px;
+                padding:5px 10px;
+                border:1px solid #bababa;
+                border-radius:5px;
+            }
+        }
+        .productlist-page-previous{
+
+        }
+        .dropdown{
+            >a{
+                width: 158px;
+            }
+            .dropdown-menu{
+                margin:0;
+                text-align: center;
+                padding:10px;
+                li{
+              
+                    border-bottom:1px solid #bababa;
+                    a{
+                        display: block;
+                    }
+                }
+            }
+        }
+        .productlist-page-next{
+
+        }
+    }
+}
+// productlist  end

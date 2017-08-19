@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"/>
+    <meta charset="UTF-8">
+    <title></title>
+    <link rel="stylesheet" href="./css/base.css"/>
+    <link rel="stylesheet" href="./css/c29index.css"/>
+    <link rel="stylesheet" href="./lib/bootstrap/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="./css/c29productlist.css"/>
+
+</head>
+<body>
+<!--header start-->
+<header id="header">
+    <div class="header_logo"><a href="./c29index.html"><img src="./images/header_logo.png" alt=""/></a></div>
+    <div class="header_app"><a href="./c29index.html"><img src="./images/header_app.png" alt=""/></a></div>
+</header>
+<!--header end-->
+
+<!--search start-->
+<section id="search">
+    <form action="搜索提交地址">
+        <input class="searchbox" type="text" placeholder="   慢慢搜"/>
+        <input class="searchbtn" type="button" value="搜索"/>
+    </form>
+</section>
+<!--search end-->
+
+<section id="productlist">
+    <div id="nav">
+        <a href="./c29index.html">首页 > </a>
+        <a href="./c29category.html">全部分类 > </a>
+        <span id="plisttitle"></span>
+        <button>筛选</button>
+    </div>
+    <div id="productContent">
+        <div class="media">
+            <a class="pull-left media-left" href="#">
+                <img class="media-object"
+                     src="http://www.zuyushop.com:8013/ProPic/201612/small80/Thumb_2016120016544872739.jpg">
+            </a>
+
+            <div class="media-body">
+                <h4 class="media-heading">夏普(SHARP) LCD-70SU665A 70英寸 4K超高清智能液晶电视 </h4>
+
+                <p class="price"><span><i>¥</i>6499</span></p>
+
+                <p class="info">
+                    <span>商城报价</span>
+                    <span>有3749人评论</span>
+                </p>
+            </div>
+        </div>
+    </div>
+    <div id="productPage">
+        <div class="pagelist"><button id="btnPre">上一页</button></div>
+        <div class="pagelist"><select name="productListSelect" id="productListSelect">
+            <option value="1">1</option>
+        </select></div>
+        <div class="pagelist"><button id="btnNext">下一页</button></div>
+    </div>
+</section>
+
+<!--footer start-->
+<footer id="footer">
+    <div>
+        <div class="width30"><a href="跳转">登陆</a></div>
+        <div class="width30"><a href="跳转">注册</a></div>
+        <div class="width40"><a href="跳转"><img src="http://www.zuyushop.com/wap/images/top.jpg" alt=""/>返回顶部</a></div>
+    </div>
+    <p>
+        <a href="跳转">
+            <span> 手机APP下载 </span><span>慢慢买手机版</span><span>-掌上比价平台</span>
+        </a>
+    </p>
+    <a href="#">m.manmanbuy.com</a>
+
+</footer>
+<!--footer end-->
+
+<!--productlistTpl start-->
+<script type="text/html" id="productlistTpl">
+{{each data as value index}}
+<div class="media">
+
+    <a class="pull-left media-left" href="#">
+        {{#value.productImg}}
+    </a>
+
+    <div class="media-body">
+        <h4 class="media-heading">{{value.productName}}</h4>
+
+        <p class="price"><span><i>¥</i>{{value.productPrice.replace('￥',"")}}</span></p>
+
+        <p class="info">
+            <span>商城{{value.productQuote}}</span>
+            <span>{{value.productCom.replace('有',"")}}</span>
+        </p>
+    </div>
+</div>
+{{/each}}
+
+
+</script>
+<!--productlistTpl end-->
+
+<script src="./js/29url.js"></script>
+<script src="./lib/jquery/jquery.js"></script>
+<script src="./js/template.js"></script>
+<script src="./js/c29productlist.js"></script>
+</body>
+</html>

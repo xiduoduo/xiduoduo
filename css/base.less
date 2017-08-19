@@ -1,0 +1,210 @@
+@charset "utf-8";
+
+/* CSS Document */
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #f2f2f2;
+}
+ol,
+ul {
+    list-style: none;
+}
+
+input,
+select,
+form images,
+button {
+    vertical-align: middle;
+    -webkit-tap-highlight-color: transparent;
+    outline: 0;
+}
+
+.clearfix:after {
+    content: ".";
+    display: block;
+    height: 0;
+    clear: both;
+    visibility: hidden;
+}
+
+.clearfix {
+    zoom: 1;
+}
+
+textarea {
+    width: 95%;
+}
+
+a {
+    color: #000;
+    text-decoration: none;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+a:hover, a:focus {
+  
+     text-decoration: none;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-size: 100%;
+}
+
+ul,
+ol,
+li {
+    list-style: none;
+}
+
+em,
+i {
+    font-style: normal;
+}
+
+img {
+    border: none;
+}
+
+input,
+img {
+    vertical-align: middle;
+}
+
+body {
+    color: #000;
+    font-family: arial;
+    background: #FFF;
+    overflow-x: hidden;
+}
+.fl{
+    float: left;
+}
+.fr{
+    float: right;
+}
+.dismiss{
+    display: none;
+}
+
+
+//公公央视
+//header开始
+#header {
+    background-color: #ff841d;
+    height: 50px;
+    line-height: 50px;
+    padding: 0 10px;
+    .logo {
+        float: left;
+        a {
+            img {
+                height: 25px;
+            }
+        }
+    }
+    .app-download {
+        float: right;
+        img {
+            height: 34px;
+        }
+    }
+}
+//header结束
+//搜索开始
+#search {
+    height: 50px;
+    padding: 10px;
+    position: relative;
+    .searchForm {
+        padding-right: 70px;
+
+        .mms {
+            height: 30px;
+            line-height: 30px;
+            width: 100%;
+            background-color: #f1f1f1;
+            border: 0;
+            color: #f1f1f1;
+            pdding-left: 20px;
+            font-size: 16px;
+            -webkit-border-radius: 15px;
+            -moz-border-radius: 15px;
+            border-radius: 15px;
+            font-size: 14px;
+        }
+        .mmsbtn {
+            width: 63px;
+            height: 30px;
+            border: 0;
+            -webkit-border-radius: 15px;
+            -moz-border-radius: 15px;
+            border-radius: 15px;
+            color: #ffffff;
+            background-color: #ff841d;
+            position: absolute;
+            right: 10px;
+            top: 10px;
+
+        }
+    }
+}
+
+//搜索结束
+//底部开始
+#footer{
+    height: 30px;
+    padding-top: 20px;
+    #footer_menu{
+        width: 100%;
+        text-align: center;
+        div{
+            width: 30%;
+            height: 100%;
+            line-height: 30px;
+            border-top:1px solid #cccccc;
+            border-right: 1px solid #cccccc;
+            border-bottom: 1px solid #cccccc;
+            float: left;
+        }
+        div:last-child{
+            width: 40%;
+        }
+    }
+    div{
+
+        text-align: center;
+        a{
+            height: 30px;
+            width: 100%;
+            font-size: 12px;
+            line-height: 30px;
+            span{
+                color:red;
+            }
+            i{
+                color: #cccccc;
+            }
+        }
+    }
+
+}
+//底部结束

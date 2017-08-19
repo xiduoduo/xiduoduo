@@ -1,0 +1,54 @@
+{
+  "_from": "zepto.js",
+  "_id": "zepto.js@1.1.6",
+  "_inBundle": false,
+  "_integrity": "sha1-FD1/mFMXApsRcHESFs9P5MCJ5oo=",
+  "_location": "/zepto.js",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "tag",
+    "registry": true,
+    "raw": "zepto.js",
+    "name": "zepto.js",
+    "escapedName": "zepto.js",
+    "rawSpec": "",
+    "saveSpec": null,
+    "fetchSpec": "latest"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/zepto.js/-/zepto.js-1.1.6.tgz",
+  "_shasum": "143d7f985317029b1170711216cf4fe4c089e68a",
+  "_spec": "zepto.js",
+  "_where": "C:\\Users\\C",
+  "bugs": {
+    "url": "https://github.com/madrobby/zepto/issues"
+  },
+  "bundleDependencies": false,
+  "deprecated": false,
+  "description": "Zepto is a minimalist JavaScript library for modern browsers with a largely jQuery-compatible API. If you use jQuery, you already know how to use Zepto.",
+  "devDependencies": {
+    "coffee-script": "1.5.x",
+    "express": "3.1.x",
+    "shelljs": "0.1.x",
+    "uglify-js": "2.4.x"
+  },
+  "homepage": "http://zeptojs.com",
+  "license": {
+    "type": "MIT",
+    "url": "http://zeptojs.com/license/"
+  },
+  "name": "zepto.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/madrobby/zepto.git"
+  },
+  "scripts": {
+    "dist": "coffee make dist",
+    "start": "coffee test/server.coffee",
+    "test": "coffee make test"
+  },
+  "version": "1.1.6"
+}

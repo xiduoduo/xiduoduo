@@ -1,0 +1,28 @@
+#product-bijia > .product-bijia > h3 {
+  text-align: center;
+  font-size: 17px;
+  width: 90%;
+  margin: 0 auto;
+  margin-top: 16px;
+}
+#product-bijia > .product-bijia > .product-bijia-img {
+  text-align: center;
+}
+#product-bijia > .product-bijia > .product-bijia-img img {
+  width: 170px;
+}
+#product-bijia > .product-bijia > .product-bijia-clect {
+  text-align: right;
+  margin-top: -10px;
+}
+#product-bijia > .product-bijia > .product-bijia-clect img {
+  width: 39px;
+  height: 39px;
+}
+#product-bijia > .tab-list {
+  display: flex;
+  text-align: center;
+}
+#product-bijia > .tab-list li {
+  flex: 1;
+}

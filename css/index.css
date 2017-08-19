@@ -1,0 +1,155 @@
+#header {
+  background-color: #ff841d;
+  height: 50px;
+  line-height: 50px;
+  padding: 0 10px;
+}
+#header .logo {
+  float: left;
+}
+#header .logo a img {
+  height: 25px;
+}
+#header .app-download {
+  float: right;
+}
+#header .app-download img {
+  height: 34px;
+}
+#search form {
+  display: flex;
+  padding: 10px;
+}
+#search form input[type="search"] {
+  flex: 1;
+  border: none;
+  background: #f1f1f1;
+  border-radius: 15px;
+  padding-left: 18px;
+  margin-right: 10px;
+}
+#search form input[type="button"] {
+  width: 63px;
+  height: 30px;
+  color: #fff;
+  border: none;
+  line-height: 30px;
+  border-radius: 15px;
+  background-color: #ff841d;
+}
+#menu {
+  border-top: 10px solid #f1f1f1;
+}
+#menu .item {
+  text-align: center;
+}
+#menu .item a img {
+  width: 50px;
+  height: 50px;
+  margin-top: 10px;
+}
+#menu .item a p {
+  margin-top: 6px;
+  font-size: 12px;
+}
+#menu .item:nth-last-child(-n+4) {
+  display: none;
+}
+#discount .discount-product .media {
+  padding: 10px;
+  border-bottom: 1px solid #e7e7e7;
+}
+#discount .discount-product .media .media-left img {
+  width: 100px;
+  height: 100px;
+}
+#discount .discount-product .media .media-body .media-heading {
+  min-height: 54px;
+  line-height: 22px;
+  font-size: 16px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 3;
+}
+#discount .discount-product .media .media-body .media-heading span {
+  color: #ff841d;
+}
+#discount .discount-product .media .media-body .other {
+  color: #a1a1a1;
+  font-size: 12px;
+}
+#discount .discount-product .media .media-body .other .other-talk {
+  float: right;
+}
+#discount .discount-more {
+  padding: 10px 10px 0 10px;
+}
+#discount .discount-more a {
+  display: block;
+  line-height: 30px;
+  text-align: center;
+  border-radius: 5px;
+  width: 100%;
+  border: 1px solid #dddddd;
+  background: #F4F4F4;
+}
+.discount-title {
+  height: 35px;
+  line-height: 35px;
+  padding: 0 10px;
+  background-color: #ff841d;
+}
+.discount-title span {
+  font-size: 16px;
+  color: #fff;
+}
+.discount-title img {
+  width: 20px;
+  height: 20px;
+  margin-top: 7px;
+  float: right;
+}
+#footer {
+  margin-top: 10px;
+}
+#footer .loginbox {
+  margin-top: 20px;
+  text-align: center;
+  background: #efefef;
+  border-top: 1px solid #c4c4c4;
+  border-bottom: 1px solid #c4c4c4;
+}
+#footer .loginbox > div {
+  width: 30%;
+  height: 34px;
+  border-right: 1px solid #c4c4c4;
+  float: left;
+  line-height: 34px;
+}
+#footer .loginbox .goTop {
+  width: 40%;
+}
+#footer .loginbox .goTop img {
+  margin-top: -3px;
+}
+#footer .login-bottom {
+  text-align: center;
+}
+#footer .login-bottom .p-top {
+  margin-top: 10px;
+  margin-bottom: 0;
+}
+#footer .login-bottom .p-top span {
+  font-size: 12px;
+}
+#footer .login-bottom .p-top span:first-child {
+  color: red;
+}
+#footer .login-bottom .p-top span:nth-child(2) {
+  color: #000;
+}
+#footer .login-bottom .p-top span:nth-child(3) {
+  color: #ccc;
+}
